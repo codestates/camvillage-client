@@ -4,7 +4,8 @@
   "description": "CamVillage Client",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
@@ -24,12 +25,25 @@
     "@reduxjs/toolkit": "^1.1.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^6.6.0",
     "@babel/register": "^7.11.5",
     "jsdom": "^16.4.0"
   },
   "bugs": {
     "url": "https://github.com/codestates/camvillage-client/issues"
   },
-  "homepage": "https://github.com/codestates/camvillage-client#readme"
+  "homepage": "https://github.com/codestates/camvillage-client#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "type": "module"
 }
